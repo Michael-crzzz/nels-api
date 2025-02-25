@@ -1,0 +1,41 @@
+/* Universal styles for all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+}
+
+/* Styles for the title section */
+.title{
+    text-align: center;
+}
+
+/* Styles for the title heading (<h1>) */
+.title h1{
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 600;
+    transition: 0.5s;
+
+}
+
+/* Hover effect for the title heading */
+.title h1:hover{
+    -webkit-text-stroke: 2xp #ffffff;
+    color: transparent;
+}
+
+/* Styles for the link (<a>) in the title section */
+.title a{
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 24px;
+    border: 2px solid #ffffff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
